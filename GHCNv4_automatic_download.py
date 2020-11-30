@@ -19,14 +19,9 @@ from bs4 import BeautifulSoup
 
 path = '/path/to/Github_repository/'
 
-# load station metadata
-metadata_filename = path + 'all_stations_ID_coordinates.txt'
+# load station metadata 
+metadata_filename = path + 'GHCNv4_stations.txt'
 stations_metadata = pd.read_csv(metadata_filename, delimiter=r"\s+")
-
-# data cleansing
-stations_metadata.Station = stations_metadata.Station.astype(str)
-stations_metadata.Lat = pd.to_numeric(stations_metadata.Lat, errors='coerce')
-valid_stations = [len(idx) == 11 for idx in stations_metadata.ID]
 
 # select all stations above min_latitude
 min_latitude = 66.5
