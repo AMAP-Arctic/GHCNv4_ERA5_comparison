@@ -9,5 +9,5 @@ Comparison between  [[https://data.giss.nasa.gov/gistemp/station_data_v4_globe/]
 ** GHCNv4_automatic_download.py
 + Automated download of GHCNv4 datasets from the [[https://data.giss.nasa.gov/gistemp/station_data_v4_globe/][GISS Surface Temperature Analysis (v4) website]] using 
   the full list of stations ([[GHCNv4_stations.txt]]) or a subset of list of stations that contribute to the final GISTEMP v4 products ([[GHCNv4_stations_GISTEMP.txt]]).
-+ Possibility to select stations within a given (lon, lat) footprint area. 
++ Possibility to select stations within a given footprint area defined by longitude and latitude coordinates. 
 + Function is run using multiprocessing to drastically decrease computation time.
