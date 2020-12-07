@@ -26,16 +26,13 @@ import matplotlib.pyplot as plt
 # %% set required paths
 
 # path to Github repository
-gr_path = 'C:/Users/Pascal/Desktop/GEUS_2019/GISTEMP_analysis/'
-
+gr_path = '/path/to/GHCNv4_ERA5_comparison/'
 
 # path to folder containing GHCNv4 datasets
-dataset_path = 'C:/Users/Pascal/Desktop/GEUS_2019/GISTEMP_analysis/raw_GISTEMP_csv_data/'
+dataset_path = '/path/to/raw_GHCNv4_csv_data/'
 
 # filename of era5 dataset
-era5_filename = "C:/Users/Pascal/Desktop/UGAM2/CIA/adaptor.mars.internal" \
-            + "-1602255451.139694-24165-26-eecb89cc-17e1-4466-b8a2-11" \
-            + "d905ef570a.nc"
+era5_filename = '/path/to/ERA5_dataset.nc'
 
 
 # %% get centroid coordinates of ERA5 cells
