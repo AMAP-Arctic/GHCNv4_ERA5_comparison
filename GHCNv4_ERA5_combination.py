@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: Adrien Wehrlé, Jason Box, GEUS (Geological Survey of Denmark and Greenland)
+@author: Adrien Wehrlé, GEUS (Geological Survey of Denmark and Greenland)
 
 Combine GHCNv4 meteorological station datasets with corresponding 
 ERA5 cells.
